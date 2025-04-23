@@ -10,11 +10,11 @@ int main(){
     int count=1;
     while(i<=n){
         int j=1;
-        while(j<=n){
+        int count=i;
+        while(j<=i){
             cout<<count<<" ";
-            count++;
-            j++;
-             
+            j++;  
+            count++;  
         }
         cout<<endl;
         i++;
